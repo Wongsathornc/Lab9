@@ -71,10 +71,18 @@ class testFizzBuzz {
 		String result = testFizzBuzz.CalculateNumber(8);
 		assertEquals("8", result);		
 	}
+
 	@Test
 	@DisplayName("Test CalculateNumber using TC09")
-	void test_point_is_9_result_is_9() {
+	void test_point_is_9_result_is_Fizz() {
 		String result = testFizzBuzz.CalculateNumber(9);
 		assertEquals("Fizz", result);		
+	}
+	
+	@Test
+	@DisplayName("Test CalculateNumber using TC10")
+	void test_point_is_10_result_is_Buzz() {
+		String result = testFizzBuzz.CalculateNumber(10);
+		assertEquals("Buzz", result);		
 	}
 }
