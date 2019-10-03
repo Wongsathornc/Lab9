@@ -14,5 +14,13 @@ class testFizzBuzz {
 	public void setUp() throws Exception {
 		testFizzBuzz = new FizzBuzz();
 	}
+
+
+	@Test
+	@DisplayName("Test CalculateNumber using TC01")
+	void test_point_is_1_result_is_1() {
+		String result = testFizzBuzz.CalculateNumber(1);
+		assertEquals("1", result);		
+	}
 	
 }
