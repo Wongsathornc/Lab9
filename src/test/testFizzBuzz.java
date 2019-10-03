@@ -29,11 +29,19 @@ class testFizzBuzz {
 		String result = testFizzBuzz.CalculateNumber(2);
 		assertEquals("2", result);		
 	}
+	
 	@Test
 	@DisplayName("Test CalculateNumber using TC03")
-	void test_point_is_3_result_is_3() {
+	void test_point_is_3_result_is_Fizz() {
 		String result = testFizzBuzz.CalculateNumber(3);
-		assertEquals("3", result);		
+		assertEquals("Fizz", result);		
+	}
+	
+	@Test
+	@DisplayName("Test CalculateNumber using TC04")
+	void test_point_is_4_result_is_4() {
+		String result = testFizzBuzz.CalculateNumber(4);
+		assertEquals("4", result);		
 	}
 	
 }
