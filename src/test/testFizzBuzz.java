@@ -23,4 +23,11 @@ class testFizzBuzz {
 		assertEquals("1", result);		
 	}
 	
+	@Test
+	@DisplayName("Test CalculateNumber using TC02")
+	void test_point_is_2_result_is_2() {
+		String result = testFizzBuzz.CalculateNumber(2);
+		assertEquals("2", result);		
+	}
+	
 }

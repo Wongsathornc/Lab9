@@ -1,2 +1,0 @@
-INDEX VERSION 1.131+C:\Users\Windows\Desktop\testlab9\.metadata\.plugins\org.eclipse.jdt.core
-3271193799.index
